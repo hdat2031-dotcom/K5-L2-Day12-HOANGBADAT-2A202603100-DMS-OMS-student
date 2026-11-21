@@ -1,0 +1,21 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D05.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giu nguyen va nhac peer bat occluded
+D05.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,Giu nguyen va nhac peer bat occluded
+D05.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giu nguyen va nhac peer bat occluded
+D05.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giu nguyen va nhac peer bat occluded
+S03_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.1,Giu nguyen infant_seat dung dang noi
+S03_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1,Giu nguyen infant_seat dung dang noi
+S03_rgb.png,frame_meta,modality,khác giá trị,ir,rgb,peer,4.3-1,Sua modality tu ir thanh rgb
+S03_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.1,Giu nguyen infant_seat dung dang noi
+S03_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1,Giu nguyen infant_seat dung dang noi
+S04_ir.png,face,eye_left,khác giá trị (IoU=0.80),open,unknown,peer,4.1,Doi eye_left thanh unknown theo mac dinh OMS
+S04_ir.png,face,eye_right,khác giá trị (IoU=0.80),open,unknown,peer,4.1,Doi eye_right thanh unknown theo mac dinh OMS
+S04_ir.png,face,glasses,khác giá trị (IoU=0.80),none,unknown,peer,4.5,Doi glasses thanh unknown
+S05_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Giu nguyen box object vi co coc tren ghe rear_left
+S05_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Giu nguyen box object vi co coc tren ghe rear_left
+S07_ir.png,infant_seat,seat,khác giá trị (IoU=1.00),rear_right,rear_left,mine,4.4-3,Giu nguyen vi trai anh la rear_right
+S07_rgb.png,infant_seat,seat,khác giá trị (IoU=1.00),rear_right,rear_left,mine,4.4-3,Giu nguyen vi trai anh la rear_right
+S08_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.1,Giu nguyen child_seat dung dang ghe tre em
+S08_ir.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1,Giu nguyen child_seat dung dang ghe tre em
+S08_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.1,Giu nguyen child_seat dung dang ghe tre em
+S08_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1,Giu nguyen child_seat dung dang ghe tre em

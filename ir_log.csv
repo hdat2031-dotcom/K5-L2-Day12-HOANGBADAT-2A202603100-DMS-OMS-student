@@ -1,0 +1,5 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S04_ir,IR_sim,"Mất thông tin màu sắc và độ tương phản vùng mắt kém hơn ảnh RGB nên khó chắc hành khách có đeo kính trong suốt hay không",glasses,"Đổi từ none sang unknown sau khi review chéo để tránh đoán sai"
+S05_ir,IR_sim,"Ảnh xám mô phỏng làm mất màu sắc của chiếc cốc đặt trên ghế rear_left so với ảnh RGB",object.type,"Phải dựa vào hình dạng và vị trí tương đối thay vì màu sắc để giữ nhãn object (type=cup)"
+S08_ir,IR_sim,"Mất màu và hoa văn vải trên ghế trẻ em và nôi em bé so với ảnh S08_rgb",child_seat / infant_seat,"Phải phân biệt loại ghế hoàn toàn dựa trên hình khối và đường nét cấu trúc thay vì màu vải"
+D05,real_IR,"Mắt trái của tài xế bị che khuất/phản xạ trên ảnh cận hồng ngoại thật (NIR) không nhìn rõ khe mắt",eye_left / face13.left_eye_*,"Ghi eye_left=unknown và bật cờ occluded=1 cho cả 4 điểm left_eye_* thay vì đoán open hay closed"
